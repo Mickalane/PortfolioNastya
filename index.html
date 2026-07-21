@@ -128,51 +128,32 @@
   </div>
 
   <div class="certs-grid">
-    <!-- 
-      КАК ЗАМЕНИТЬ ФОТО СЕРТИФИКАТОВ:
-      1. Положите фото сертификатов в папку с файлом portfolio.html
-      2. Замените src="cert1.jpg" на имя вашего файла (например: src="screenshot.jpg")
-      3. Измените текст в cert-title и cert-meta на реальные данные
-    -->
-    <div class="cert-card">
-      <img class="cert-img" src="cert1.jpg" alt="Сертификат 1">
+    <div class="cert-card" onclick="openModal('cert1.jpg')">
+      <div class="cert-img-wrapper">
+        <img class="cert-img" src="photo_2026-07-21_18-38-57.jpg" alt="Сертификат 1">
+        <div class="cert-zoom">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="M21 21l-4.35-4.35"></path>
+          </svg>
+        </div>
+      </div>
       <div class="cert-body">
         <div class="cert-title">Гештальт-терапия, 1 ступень</div>
-        <div class="cert-meta">2024 · МГИ</div>
+        <div class="cert-meta">2026 · МАГ</div>
       </div>
     </div>
-    <div class="cert-card">
-      <img class="cert-img" src="cert2.jpg" alt="Сертификат 2">
-      <div class="cert-body">
-        <div class="cert-title">Арт-терапия в практике</div>
-        <div class="cert-meta">2024 · Институт арт-терапии</div>
-      </div>
-    </div>
-    <div class="cert-card">
-      <img class="cert-img" src="cert3.jpg" alt="Сертификат 3">
-      <div class="cert-body">
-        <div class="cert-title">Работа с травмой</div>
-        <div class="cert-meta">2023 · Психологический центр</div>
-      </div>
-    </div>
-    <div class="cert-card">
-      <img class="cert-img" src="cert4.jpg" alt="Сертификат 4">
-      <div class="cert-body">
-        <div class="cert-title">Групповая психотерапия</div>
-        <div class="cert-meta">2023 · МГИ</div>
-      </div>
-    </div>
+  </div>
+</div>
 
-    <!--
-    ПРИМЕР РЕАЛЬНОЙ КАРТОЧКИ:
-    <div class="cert-card">
-      <img class="cert-img" src="cert1.jpg" alt="Гештальт 1 ступень">
-      <div class="cert-body">
-        <div class="cert-title">Гештальт-терапия, 1 ступень</div>
-        <div class="cert-meta">2024 · МГИ</div>
-      </div>
-    </div>
-    -->
+<!-- MODAL -->
+<div class="modal" id="imageModal" onclick="closeModal()">
+  <img class="modal-content" id="modalImage" src="" alt="">
+  <div class="modal-close" onclick="closeModal()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 6L6 18"></path>
+      <path d="M6 6l12 12"></path>
+    </svg>
   </div>
 </div>
 
