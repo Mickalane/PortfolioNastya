@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Анастасия Паутова — психолог, арт-терапевт</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV DOTS -->
+<nav class="nav-dots" aria-label="Навигация по страницам">
+  <button class="nav-dot active" onclick="goTo(0)" aria-label="Страница 1"></button>
+  <button class="nav-dot" onclick="goTo(1)" aria-label="Страница 2"></button>
+  <button class="nav-dot" onclick="goTo(2)" aria-label="Страница 3"></button>
+</nav>
+
+<!-- ── PAGE 1 ── -->
+<div class="page p1" id="pg0">
+  <div class="blob blob-rose"></div>
+  <div class="blob blob-lav"></div>
+
+  <div class="p1-left">
+    <p class="eyebrow">Психолог · Арт-терапевт</p>
+    <h1>Анастасия<br><em>Паутова</em></h1>
+    <div class="pill-row">
+      <span class="pill ps">🌿 Гештальт</span>
+      <span class="pill pr">🎨 Арт-терапия</span>
+      <span class="pill pl">✨ Онлайн</span>
+    </div>
+    <div class="price-block">
+      <span class="price-amount">1 000 ₽</span>
+      <span class="price-note">/ 60 минут · онлайн</span>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-tg" href="https://t.me/M_nesti">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2Zm4.93 7.07-1.9 8.95c-.14.62-.51.77-.99.48l-2.72-2-1.32 1.27c-.14.14-.27.27-.56.27l.2-2.81 5.12-4.63c.22-.2-.05-.3-.34-.1L8.16 14.6l-2.69-.84c-.58-.18-.59-.58.13-.86l10.5-4.05c.48-.17.9.12.75.84Z" fill="currentColor"/></svg>
+        Telegram
+      </a>
+      <a class="btn btn-tg" href="https://t.me/psy_highwave">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2Zm4.93 7.07-1.9 8.95c-.14.62-.51.77-.99.48l-2.72-2-1.32 1.27c-.14.14-.27.27-.56.27l.2-2.81 5.12-4.63c.22-.2-.05-.3-.34-.1L8.16 14.6l-2.69-.84c-.58-.18-.59-.58.13-.86l10.5-4.05c.48-.17.9.12.75.84Z" fill="currentColor"/></svg>
+        Канал
+      </a>
+      <a class="btn btn-vk" href="https://vk.ru/m_nesti">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20.44 7.8c.13-.44 0-.76-.63-.76h-2.08c-.53 0-.77.28-.9.59 0 0-1.05 2.56-2.54 4.22-.48.48-.7.63-.96.63-.13 0-.32-.15-.32-.59V7.8c0-.53-.15-.76-.59-.76H9.58c-.33 0-.53.25-.53.48 0 .5.75.62.83 2.04v3.08c0 .67-.12.79-.38.79-.7 0-2.39-2.57-3.4-5.51C5.9 7.33 5.7 7.04 5.16 7.04H3.08c-.6 0-.72.28-.72.59 0 .55.7 3.3 3.26 6.93 1.7 2.44 4.1 3.76 6.28 3.76 1.31 0 1.47-.29 1.47-.8v-1.86c0-.6.13-.72.55-.72.31 0 .85.16 2.1 1.37 1.43 1.43 1.66 2.07 2.46 2.07h2.08c.6 0 .9-.29.72-.87-.19-.58-.86-1.42-1.75-2.41-.48-.57-1.2-1.18-1.42-1.49-.31-.4-.22-.58 0-.94 0 0 2.51-3.54 2.77-4.74Z" fill="currentColor"/></svg>
+        ВКонтакте
+      </a>
+    </div>
+  </div>
+
+  <div class="p1-right">
+    <div class="blob blob-sage"></div>
+    <p class="section-label">Обо мне</p>
+    <h2>Пространство,<br>где можно<br><em>быть собой</em></h2>
+    <p class="about-text">Я психолог и арт-терапевт, работаю в гештальт-подходе. Психотерапия для меня — пространство, где можно решать проблемы, узнавать себя и свои чувства.</p>
+    <p class="about-text">Приветствую образы, персонажей, аниме, игры, сны и ассоциации — именно там часто находится что-то важное.</p>
+    <blockquote class="quote">
+      «Я обещаю находиться рядом в сложных переживаниях и поиске опоры»
+    </blockquote>
+    
+    <div style="margin-top: 32px; padding: 20px; background: var(--sage-l); border-radius: 12px;">
+      <p style="font-size: 13px; font-weight: 600; color: #3D5C3A; margin-bottom: 8px;">📹 Формат работы</p>
+      <p style="font-size: 13px; color: #3D5C3A; margin: 0;">Онлайн-сессии через платформы Телемост и ВК Званки</p>
+    </div>
+    
+    <div style="margin-top: 20px; padding: 20px; background: var(--lav-l); border-radius: 12px;">
+      <p style="font-size: 13px; font-weight: 600; color: #4A3F68; margin-bottom: 8px;">💼 Опыт работы</p>
+      <p style="font-size: 13px; color: #4A3F68; margin: 0; margin-bottom: 8px;">Индивидуальные сессии: работа с тревогой, самооценкой, отношениями, кризисными состояниями.</p>
+      <p style="font-size: 13px; color: #4A3F68; margin: 0;">Групповой формат: арт-терапевтические группы по самопознанию и развитию эмоционального интеллекта.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ── PAGE 2 ── -->
+<div class="page p2" id="pg1">
+  <div class="p2-left">
+    <div class="blob blob-lav2"></div>
+    <p class="section-label">Темы</p>
+    <h2>С чем можно<br><em>прийти</em></h2>
+    <div class="topics-list">
+      <div class="topic-item"><span>🍀</span><span>Тревога, внутреннее напряжение</span></div>
+      <div class="topic-item"><span>🌱</span><span>Потеря сил и опоры</span></div>
+      <div class="topic-item"><span>🌺</span><span>Сложности в отношениях</span></div>
+      <div class="topic-item"><span>🍀</span><span>Одиночество</span></div>
+      <div class="topic-item"><span>🌱</span><span>Горевание и потери</span></div>
+      <div class="topic-item"><span>🌺</span><span>Травматический опыт</span></div>
+    </div>
+  </div>
+
+  <div class="p2-right">
+    <div class="blob blob-rose2"></div>
+    <p class="section-label">Как я работаю</p>
+    <h2>Что важно<br><em>знать</em></h2>
+    <div class="how-list">
+      <div class="how-item">
+        <div class="how-dot hd-r">🌸</div>
+        <div>
+          <h3>Говорим так, как удобно</h3>
+          <p>Никакого правильного формата — говорите о важном так, как получается у вас.</p>
+        </div>
+      </div>
+      <div class="how-item">
+        <div class="how-dot hd-s">🎨</div>
+        <div>
+          <h3>Образы и творчество</h3>
+          <p>Аниме, игры, метафоры — полноценный язык в работе.</p>
+        </div>
+      </div>
+      <div class="how-item">
+        <div class="how-dot hd-l">✨</div>
+        <div>
+          <h3>Гештальт-подход</h3>
+          <p>Работаем с тем, что происходит здесь и сейчас.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── PAGE 3: CERTS ── -->
+<div class="page p3" id="pg2">
+  <div class="p3-header">
+    <div>
+      <p class="section-label">Образование</p>
+      <h2>Достижения и<br><em>сертификаты</em></h2>
+    </div>
+  </div>
+
+  <div class="certs-grid">
+    <!-- 
+      КАК ЗАМЕНИТЬ ФОТО СЕРТИФИКАТОВ:
+      1. Положите фото сертификатов в папку с файлом portfolio.html
+      2. Замените src="cert1.jpg" на имя вашего файла (например: src="screenshot.jpg")
+      3. Измените текст в cert-title и cert-meta на реальные данные
+    -->
+    <div class="cert-card">
+      <img class="cert-img" src="cert1.jpg" alt="Сертификат 1">
+      <div class="cert-body">
+        <div class="cert-title">Гештальт-терапия, 1 ступень</div>
+        <div class="cert-meta">2024 · МГИ</div>
+      </div>
+    </div>
+    <div class="cert-card">
+      <img class="cert-img" src="cert2.jpg" alt="Сертификат 2">
+      <div class="cert-body">
+        <div class="cert-title">Арт-терапия в практике</div>
+        <div class="cert-meta">2024 · Институт арт-терапии</div>
+      </div>
+    </div>
+    <div class="cert-card">
+      <img class="cert-img" src="cert3.jpg" alt="Сертификат 3">
+      <div class="cert-body">
+        <div class="cert-title">Работа с травмой</div>
+        <div class="cert-meta">2023 · Психологический центр</div>
+      </div>
+    </div>
+    <div class="cert-card">
+      <img class="cert-img" src="cert4.jpg" alt="Сертификат 4">
+      <div class="cert-body">
+        <div class="cert-title">Групповая психотерапия</div>
+        <div class="cert-meta">2023 · МГИ</div>
+      </div>
+    </div>
+
+    <!--
+    ПРИМЕР РЕАЛЬНОЙ КАРТОЧКИ:
+    <div class="cert-card">
+      <img class="cert-img" src="cert1.jpg" alt="Гештальт 1 ступень">
+      <div class="cert-body">
+        <div class="cert-title">Гештальт-терапия, 1 ступень</div>
+        <div class="cert-meta">2024 · МГИ</div>
+      </div>
+    </div>
+    -->
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
